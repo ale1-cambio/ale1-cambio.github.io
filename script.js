@@ -38,3 +38,11 @@ function areatrap01() {
   let areatrap01 = ((bmagg + bmin) * h) / 2;
   $("#areatrap01").html(areatrap01);
 }
+
+function areatrap02() {
+  let bmagg = Number($("#basemaggtrap02").val());
+  let bmin = Number($("#basemintrap02").val());
+  let h = Number($("#htrap02").val());
+  let areatrap02 = ((bmagg + bmin) * h) / 2;
+  $("#areatrap02").html(areatrap02);
+}
