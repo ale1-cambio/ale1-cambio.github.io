@@ -46,3 +46,17 @@ function areatrap02() {
   let areatrap02 = ((bmagg + bmin) * h) / 2;
   $("#areatrap02").html(areatrap02);
 }
+
+function areatrap02() {
+  let bmagg = Number($("#basemaggtrap03").val());
+  let bmin = Number($("#basemintrap03").val());
+  let h = Number($("#htrap03").val());
+  let areatrap03 = ((bmagg + bmin) * h) / 2;
+  $("#areatrap03").html(areatrap03);
+}
+
+function areacerchio01() {
+  let r = Number($("#raggiocerchio01").val());
+  let areacerchio01 = Math.round(Math.PI * (r ** 2));
+  $("#areacerchio01").html(areacerchio01);
+}
