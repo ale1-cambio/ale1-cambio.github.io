@@ -60,3 +60,17 @@ function areacerchio01() {
   let areacerchio01 = Math.round(Math.PI * (r ** 2));
   $("#areacerchio01").html(areacerchio01);
 }
+
+function areacilindro01() {
+  let r = Number($("#raggiocilindro01").val());
+  let h = Number($("#hcilindro01").val());
+  let areacilindro01 = Math.round(Math.PI * (r ** 2) * h);
+  $("#areacilindro01").html(areacilindro01);
+}
+
+function areapiramideretta01() {
+  let area = Number($("#areapiramideretta01").val());
+  let h = Number($("#hpiramideretta01").val());
+  let areapiramideretta01 = (1/3) * area * h;
+  $("#areapiramideretta01").html(areapiramideretta01);
+}
